@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in </title>
+
+
+
+
+
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/signin.css" />
+</head>
+
+<body>
+
+
+  <!-- ============== signIn screen ============  -->
+
+   
+  <div id="signIn" class="container mybg mt-5 w-50 text-center ">
+
+    <h1 class="mb-4 mt-4 text-info">Smart Login System</h1>
+
+    <input id="nameInput" class="form-control mb-4 w-75 mx-auto " type="text" placeholder="Enter your name" />
+
+    <input  id="emailNameInput"  class="form-control mb-4 w-75 mx-auto" type="email" placeholder="Enter your email" />
+
+    <input  id="emailPasswordInput" class="form-control mb-4 w-75 mx-auto" type="password" placeholder="Enter your password" />
+
+    <p id="successMessage" class="text-success mt-3 mb-3 text-lg-center d-none" > success </p>
+
+    <p id="alertMessage" class="text-danger mt-3 mb-3 text-lg-center d-none " > All inputs are required </p>
+
+    <p id="warningMessage" class=" text-warning text-lg-center d-none " > this email already exist </p>
+
+    <a href="#">
+      <button onclick="addPersonData () ;" id="loginInput"  class="btn btn-outline-info mb-4 w-75" type="submit">
+        Sign Up
+      </button>
+    </a>
+
+    <p class="text-white"> You have an account?
+      <a id="SignInAnchor" class=" text-white" href="./index.html"> Sign in </a>
+    </p>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/signin.js"></script>
+</body>
+</html>
